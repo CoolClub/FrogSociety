@@ -1,0 +1,55 @@
+# ignore other folders
+proj.*/
+
+# except android
+!proj.android
+proj.android/*
+!proj.android/jni
+!proj.android/res
+
+# and iOS
+!proj.ios_mac
+# ignore iOS for now, since I don't have a device
+proj.ios_mac/ios
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# and windows
+!proj.win32
+proj.win32/*
+!proj.win32/BirdsOfParadise.sln
+!proj.win32/BirdsOfParadise.vcxproj
+!proj.win32/BirdsOfParadise.vcxproj.filters
+
+# ignore cocos2d-x files
+CMakeLists.txt
+
+# except the important ones
+!Classes/
+!Resources/
+
+# ignore output files
+*/output.txt
+.DS_Store

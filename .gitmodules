@@ -1,0 +1,9 @@
+[submodule "CorvusCore"]
+	path = CorvusCore
+	url = https://github.com/kjin/CorvusCore
+[submodule "cocos2d"]
+	path = cocos2d
+	url = https://github.com/cocos2d/cocos2d-x
+[submodule "Resources"]
+	path = Resources
+	url = https://github.com/kjin/FrogResources
