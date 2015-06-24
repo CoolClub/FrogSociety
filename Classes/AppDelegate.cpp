@@ -1,5 +1,5 @@
-#include "BoPAppDelegate.h"
-#include "BoPGameController.h"
+#include "AppDelegate.h"
+#include "GameController.h"
 
 USING_NS_CC;
 
@@ -50,7 +50,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	auto scene = Scene::create();
 
 	// 'layer' is an autorelease object
-	auto layer = BoPGameController::create();
+	auto layer = GameController::create();
 
 	// add layer as a child to scene
 	scene->addChild(layer);

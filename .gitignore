@@ -39,9 +39,9 @@ xcuserdata
 # and windows
 !proj.win32
 proj.win32/*
-!proj.win32/BirdsOfParadise.sln
-!proj.win32/BirdsOfParadise.vcxproj
-!proj.win32/BirdsOfParadise.vcxproj.filters
+!proj.win32/FrogSociety.sln
+!proj.win32/FrogSociety.vcxproj
+!proj.win32/FrogSociety.vcxproj.filters
 
 # ignore cocos2d-x files
 CMakeLists.txt
