@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "GameController.h"
+#include "FrogSociety.h"
 
 USING_NS_CC;
 
@@ -50,7 +50,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	auto scene = Scene::create();
 
 	// 'layer' is an autorelease object
-	auto layer = GameController::create();
+	auto layer = FrogGameManager::create();
 
 	// add layer as a child to scene
 	scene->addChild(layer);

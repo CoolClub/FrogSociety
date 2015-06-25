@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\CorvusCore\GameManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>FrogSociety</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\GameState.cpp">
+      <Filter>Core\Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\Model.cpp">
+      <Filter>Core\Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\Sprite3DView.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\SegmentedSprite3DView.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\View.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\GameView.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\CameraView.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\CollisionContainerView.cpp">
+      <Filter>Core\Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\Controller.cpp">
+      <Filter>Core\Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\GameController.cpp">
+      <Filter>Core\Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\InputController.cpp">
+      <Filter>Core\Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\OBJ.cpp">
+      <Filter>Core\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\StringUtils.cpp">
+      <Filter>Core\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\GenUtils.cpp">
+      <Filter>Core\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CorvusCore\GLProgramManager.cpp">
+      <Filter>Core\Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FrogSociety.cpp">
+      <Filter>FrogSociety</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>FrogSociety</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FrogSociety.h">
+      <Filter>FrogSociety</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GameManager.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\Controller.h">
+      <Filter>Core\Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GameController.h">
+      <Filter>Core\Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\InputController.h">
+      <Filter>Core\Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\CameraModel.h">
+      <Filter>Core\Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GameState.h">
+      <Filter>Core\Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\InputState.h">
+      <Filter>Core\Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\Model.h">
+      <Filter>Core\Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\Array2D.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\CollisionContainer.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GLProgramManager.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\OBJ.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\StringUtils.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\Team.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GenUtils.h">
+      <Filter>Core\Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\CameraView.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\CollisionContainerView.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\GameView.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\SegmentedSprite3DView.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\Sprite3DView.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CorvusCore\View.h">
+      <Filter>Core\Header Files\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{cb9477b4-4f70-4af1-ab7f-0fb33c7d1ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internal">
+      <UniqueIdentifier>{2de7aa9a-0ee9-4a4b-95d1-53df7c297d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrogSociety">
+      <UniqueIdentifier>{f5a2aebb-a5bb-42c2-8c34-fc59584187e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{a1bb7afc-3b43-4352-8177-d02fdee0520c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{31d7f7a6-8b23-4b92-8e69-94eeb20f5fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files\Model">
+      <UniqueIdentifier>{e1b27179-eeb9-4f65-8f41-37eba3ebaaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files\View">
+      <UniqueIdentifier>{170d680e-5fac-487a-8480-cf942e9573e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files\Controller">
+      <UniqueIdentifier>{ece5715e-e031-4769-ae1e-5615c96117a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files\Utils">
+      <UniqueIdentifier>{e27eae82-16c1-4966-ba17-e33776a530ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files\Controller">
+      <UniqueIdentifier>{04b610e8-ccbb-4f9a-929b-b6f0f9459221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files\Model">
+      <UniqueIdentifier>{0ce4401f-9fde-46f1-9dab-dc1e1a51bdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files\Utils">
+      <UniqueIdentifier>{4052d198-e4bf-45c5-a5ff-e2e98a6ec4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files\View">
+      <UniqueIdentifier>{731d5416-0c81-4729-b9ce-0577616fa60b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>Internal</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
